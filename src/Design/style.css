@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    background-color: #007bff !important;
+}
+nav button{
+    color: #fff;
+}
+nav a{
+    color: #fff;
+    font-weight: 400;
+}
+.active a{
+    font-weight: bolder!important;
+}
+.active a:hover{
+    font-weight: bolder!important;
+    color: #fff;
+}
+
+.icons a{
+    color: white;
+    padding: 10px 11px 10px 11px;
+    background-color: #007bff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.icons a:hover{
+ background-color: rgba(0,0,0,0.5);
+}
+.banner{
+    /* background-image: url(../uploads/projects/just.jpg); */
+     background-color: #00aeff !important;
+    width: 100%;
+    background-size: cover;
+}
+.image img{
+    width: 240px;
+    
+}
+.content{
+    color: #fff;
+    padding-bottom: 20px;
+}
+.content h2{
+    font-size: 4rem;
+    font-weight: bolder;
+
+}
+.content p a{
+    color: #000;
+
+}
+
+/* banner area close here */
+
+
+/* skill section start here */
+
+.skill h2{
+    font-size: 1.75rem;
+    font-weight: 700!important;
+}
+.skill p{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+/* card section start here */
+.card{
+    box-shadow: 0 30px 20px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.card .box{
+    position: relative;
+}
+.card .box .img{
+    width: 100px;
+    height: 100px;
+    margin: 30px auto;
+    background-color: #007bff;
+    padding: 30px;
+    border-radius: 50%;
+    text-align: center; 
+}
+.card .box img{
+width: 90%;
+height: 90%;
+position: relative;
+}
+.card .box h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.card .box p{
+    margin-top: 20px;
+    padding-left: 50px;
+}
+.card .box i{
+    color: #007bff;
+}
+.title h2{
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.card-icons{
+    color: #007bff;
+    font-size: 40px;
+}
+.card-body a{
+    color: #007bff;
+    float: right;
+}
+.card-body a:hover{
+    color: #007bff;
+}
+
+/* testimonials start here */
+
+.shadow-effect{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid #ececec;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.2);
+}
+.shadow-effect p{
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 0 0 17px 0;
+    font-weight: 300;
+}
+.img-circle{
+    border-radius: 50%;
+    vertical-align: middle;
+    max-width: 120px;
+    transform-style: preserve-3d;
+    margin: 0 auto 17px;
+}
+#customer-testimonials {
+    margin-top: 6%;
+}
+.testimonial-name{
+    margin: -17px auto 0;
+    display: table;
+    width: auto;
+    background: linear-gradient(135deg, #ff3e00, #eaa400);
+    padding: 9px 35px;
+    border-radius: 12px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0px 9px 18px rgba(0,0,0,0.12), 0px 5px 7px rgba(0,0,0,0.5);
+}
+#customer-testimonials .item{
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 0px;
+    opacity: 0.2;
+    transform: scale3d(0.8, 0.8, 1);
+    transition: all 0.3s ease-in-out;
+}
+#customer-testimonials .owl-item.active.center .item{
+    opacity: 1;
+    transform: scale3d(1.0, 1.0, 1);
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #eaa400;
+    transform: translate3d(0px -50%, 0px) scale(0.7);
+}
+
+
+/* featured projects strat here */
+.project-title{
+    margin-top: 50px;
+/*     background-color: gainsboro;
+ */    width: 100%!important;
+}
+.project-title h2{
+    font-size: 1.75rem!important;
+    font-weight: 700!important;
+    text-align: center;
+    padding-top: 50px;
+}
+.date1{
+    margin-right: 270px;
+}
+.date2{
+    margin-right: 270px;
+}
+.date3{
+    margin-right: 270px;
+}
+.date4{
+    margin-right: 270px;
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
+h4{
+    float: left;
+}
+.post-btn{
+    margin-top: 50px;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+/* featured in styling start here */
+.featured-title h2{
+    font-weight: 700!important;
+    text-align: center;
+}
+/* footer section start here */
+.footer .box .img{
+    width: 200px;
+     /* height: 200px; */
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+    margin: 0 auto;
+   
+   
+}
+.footer .box .img img{
+width: 50%;
+height: 50%;
+border-radius: 50%;
+}
+.hire-title{
+    text-align: center;
+    color: #fff;
+}
+.hire-title h2{
+    font-weight: 700;
+}
+.hire-title p{
+    /* padding: 0 25px 0 25px; */
+}
+.hire-title p a{
+    color: #000;
+}
+.hire-title .btn{
+background-color: #0055ff;
+margin-bottom: 30px;
+}
+/* .bg-dark{
+    width: 100%;
+} */
+.bg-dark p{
+    color: #fff;
+    padding:10px 10px;
+    text-align: center;
+    margin-bottom:0px !important ;
+}
+.bg-dark p a{
+    color: #fff;
+}
+@media screen and (max-width: 1200px){
+    .date1{
+        margin-right: 180px;
+    }
+    .date2{
+        margin-right: 180px;
+    }
+    .date3{
+        margin-right: 180px;
+    }
+    .date4{
+        margin-right: 180px;
+    }
+}
