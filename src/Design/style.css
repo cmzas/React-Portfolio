@@ -289,3 +289,34 @@ margin-bottom: 30px;
         margin-right: 180px;
     }
 }
+
+.carousel{
+    background-color: #00aeff !important;
+    border-radius: 10px;
+}
+.slider img{
+    width: 300px !important;
+    height: 300px !important;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-bottom: 130px;
+}
+.slider p{
+    background-color: #00f7ff !important;
+    color: white !important;
+}
+.carousel .thumb{
+    display: none !important;
+}
+.carousel-status{
+    display: none !important;
+}
+.carousel button{
+    /* background-color: orange !important; */
+    display: none !important;
+}
+/* .carousel button .control-prev{
+    color: orangered !important;
+    background-color: orangered !important;
+
+} */
