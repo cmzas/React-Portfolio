@@ -1,7 +1,7 @@
 
 const CardData=[
     {
-        imgsrc:"../../../Images/just.jpg",
+        imgsrc:"https://wallpapercave.com/wp/wp6784386.jpg",
         title:"Frontend" ,
         listone:"React/Redux/Angular",
         listtwo:"Javascript",
@@ -10,7 +10,7 @@ const CardData=[
         listfive:"HTML/CSS/SASS/LESS",
     },
     {
-        imgsrc:"../../../Images/frontend-icon.png",
+        imgsrc:"https://wallpapercave.com/wp/wp6784386.jpg",
         title:"Backend" ,
         listone:"React/Redux/Angular",
         listtwo:"Javascript",
@@ -19,7 +19,7 @@ const CardData=[
         listfive:"HTML/CSS/SASS/LESS",
     },
     {
-        imgsrc:"../../../Images/frontend-icon.png",
+        imgsrc:"https://wallpapercave.com/wp/wp6784386.jpg",
         title:"Others" ,
         listone:"React/Redux/Angular",
         listtwo:"Javascript",

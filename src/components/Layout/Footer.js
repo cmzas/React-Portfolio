@@ -4,7 +4,7 @@ import Image from "../../Images/profile.jpg";
 const Footer = () => {
     return (
         <>
-            <div class="jumbotron-fluid bg-primary mt-5">
+            <div class="jumbotron-fluid bg-primary mt-5" id="contact">
 
                 <div class="col-md-12">
                     <div class="mt-xl-5">

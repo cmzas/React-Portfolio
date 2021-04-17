@@ -1,11 +1,13 @@
-import React from 'react'
-import Clientcard from "./Clientcard";
+import React from 'react';
+import Carousels from "./Carousels";
+import Image from "../../../Images/logo-1.png";
+
 
 const Client = () => {
     return (
         <>
             
-    <div className="col-md-12 mb-5">
+    <div className="col-md-12 mb-2" id="feedback">
       
       <div className="container">
         <div className="title">
@@ -13,45 +15,40 @@ const Client = () => {
       </div>
         <div className="row">
 
-        <Clientcard/>
-        <Clientcard/>
-        <Clientcard/>
-        <Clientcard/>
-        <Clientcard/>
-        <Clientcard/>
-          {/* <div className="col-lg-2 col-md-4 col-sm-4 col-12 mt-xl-5">
-            <div className="col-md-12">
-              <a href="#"><img className="img-fluid" src="uploads/logos/logo-1.png"/></a>
+        <div className="col-lg-2 col-md-4 col-sm-4 col-12 mt-lg-1">
+                <div className="col-md-12">
+                    <a href="#"><img className="img-fluid" src={Image} /></a>
+                </div>
             </div>
-          </div>
-          <div className="col-lg-2 col-md-4 col-sm-4 col-12 mt-xl-5">
-           <div className="col-md-12">
-              <a href="#"><img className="img-fluid" src="uploads/logos/logo-1.png" /></a>
-           </div>
-         </div>
-         <div className="col-lg-2 col-md-4 col-sm-4 col-12 mt-xl-5">
-           <div className="col-md-12">
-              <a href="#"><img className="img-fluid" src="uploads/logos/logo-1.png" /></a>
-           </div>
-         </div>
-         <div className="col-lg-2 col-md-4 col-sm-4 col-12 mt-xl-5">
-           <div className="col-md-12">
-              <a href="#"><img className="img-fluid" src="uploads/logos/logo-1.png" /></a>
-           </div>
-         </div>
-         <div className="col-lg-2 col-md-4 col-sm-4 col-12 mt-xl-5">
-           <div className="col-md-12">
-              <a href="#"><img className="img-fluid" src="uploads/logos/logo-1.png" /></a>
-           </div>
-         </div>
-         <div className="col-lg-2 col-md-4 col-sm-4 col-12 mt-xl-5">
-           <div className="col-md-12">
-              <a href="#"><img className="img-fluid" src="uploads/logos/logo-1.png" /></a>
-           </div>
-         </div> */}
+            <div className="col-lg-2 col-md-4 col-sm-4 col-12 mt-lg-1">
+                <div className="col-md-12">
+                    <a href="#"><img className="img-fluid" src={Image} /></a>
+                </div>
+            </div>
+            <div className="col-lg-2 col-md-4 col-sm-4 col-12 mt-lg-1">
+                <div className="col-md-12">
+                    <a href="#"><img className="img-fluid" src={Image} /></a>
+                </div>
+            </div>
+            <div className="col-lg-2 col-md-4 col-sm-4 col-12 mt-lg-1">
+                <div className="col-md-12">
+                    <a href="#"><img className="img-fluid" src={Image} /></a>
+                </div>
+            </div>
+            <div className="col-lg-2 col-md-4 col-sm-4 col-12 mt-lg-1">
+                <div className="col-md-12">
+                    <a href="#"><img className="img-fluid" src={Image} /></a>
+                </div>
+            </div>
+            <div className="col-lg-2 col-md-4 col-sm-4 col-12 mt-lg-1">
+                <div className="col-md-12">
+                    <a href="#"><img className="img-fluid" src={Image} /></a>
+                </div>
+            </div>
         </div>
       </div>
     </div>
+    <Carousels/>
         </>
     )
 }

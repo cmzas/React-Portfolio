@@ -1,17 +1,17 @@
 import React from 'react'
 import Projectcard from "./Projectcard";
-import Carddata from "./Carddata";
+import CardData from "./ProjectCardData";
 
 const Project = () => {
     return (
         <>
-          <div class="container mb-5">
+          <div class="container mb-5" id="projects">
       <div class="project-title">
         <h2>Featured Projects</h2>
       </div>
       <div class="row">
          
-          {Carddata.map(card=>{
+          {CardData.map(card=>{
                         return(
                           <Projectcard
           

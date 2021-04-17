@@ -19,32 +19,17 @@ const Header = () => {
              <div className="collapse navbar-collapse" id="collapsibleNavId">
                  <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
                      <li className="nav-item active disabled">
-                         <a className="nav-link" href="#">ABOUT</a>
+                         <a className="nav-link" href="#skills">SKILLS</a>
                      </li>
                      <li className="nav-item">
-                         <a className="nav-link" href="#">PROJECTS</a>
+                         <a className="nav-link" href="#projects">PROJECTS</a>
                      </li>
                      <li className="nav-item">
-                         <a className="nav-link" href="#">TALKS</a>
+                         <a className="nav-link" href="#contact">CONTACT</a>
                      </li>
                      <li className="nav-item">
-                         <a className="nav-link" href="#">BLOGS</a>
+                         <a className="nav-link" href="#feedback">FEEDBACK</a>
                      </li>
-                     <li className="nav-item">
-                         <a className="nav-link" href="#">RESUME</a>
-                     </li>
-                   
-                     <li className="nav-item dropdown">
-                         <a className="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PAGES</a>
-                         <div className="dropdown-menu" aria-labelledby="dropdownId">
-                             <a className="dropdown-item" href="#">PROJECT 1</a>
-                             <div className="dropdown-divider"></div>
-                             <a className="dropdown-item" href="#">PROJECT 2</a>
-                         </div>
-                     </li>
-                     <li className="nav-item">
-                        <a className="nav-link" href="#">CONTACT</a>
-                    </li>
                    
                  </ul>
                 

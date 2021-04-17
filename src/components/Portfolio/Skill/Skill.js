@@ -1,11 +1,11 @@
 import React from 'react'
 import Skillcard from "./Skiicard";
-import CardData from "./Carddata";
+import CardData from "./SkillCardData";
 
 const Skill = () => {
     return (
         <>
-            <div className="container">
+            <div className="container" id="skills">
                 <div className="skill text-center mt-5">
                     <h2>Skills Overview</h2>
                     <p>I have more than 8 years' experience building rich web applications for clients all over the world. Below is a quick overview of my main technical skill sets and tools I use. Want to find out more about my experience?<br/>

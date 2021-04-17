@@ -4,7 +4,7 @@ import Skill from "./Skill/Skill";
 import Client from "./Client/Client";
 import Project from "./FeatureProject/Project";
 import Featurein from "./Featurein";
-import Carousels from "./Carousels";
+
 
 
 const Portfolioindex= () =>{
@@ -12,7 +12,6 @@ const Portfolioindex= () =>{
         <>
        <Banner/>
        <Skill/>
-       <Carousels/>
        <Client/>
        <Project/>
        <Featurein/>
