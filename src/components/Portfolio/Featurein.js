@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from "../../Images/logos/press-logo-1.png";
+import Image from "../../Images/press-logo-1.png";
 
 const Featurein = () => {
     return (

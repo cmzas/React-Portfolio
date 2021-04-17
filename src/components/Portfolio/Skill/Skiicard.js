@@ -1,6 +1,4 @@
-import React from 'react'
-import Image from "../../../Images/logos/frontend-icon.png";
-
+import React from 'react';
 const Skiicard = (props) => {
     return (
         <>
@@ -9,20 +7,20 @@ const Skiicard = (props) => {
                       <div className="card">
                           <div className="box">
                               <div className="img">
-                                  <img src={Image} />
+                                  <img src={props.imgsrc} alt="image" />
                               </div>
-                              <h2>Frontend</h2>
-                              <p><i className="fas fa-check"></i> &nbsp; React/Redux/Angular</p>
-                              <p><i className="fas fa-check"></i> &nbsp;Javascript</p>
-                              <p><i className="fas fa-check"></i> &nbsp;Node.js</p>
-                              <p><i className="fas fa-check"></i> &nbsp;Webpack/Gulp/Grunt</p>
-                              <p><i className="fas fa-check"></i> &nbsp;HTML/CSS/SASS/LESS</p>
+                              <h2>{props.title}</h2>
+                              <p><i className="fas fa-check"></i> {props.listone}</p>
+                              <p><i className="fas fa-check"></i> {props.listtwo}</p>
+                              <p><i className="fas fa-check"></i> {props.listthree}</p>
+                              <p><i className="fas fa-check"></i> {props.listfour}</p>
+                              <p><i className="fas fa-check"></i> {props.listfive}</p>
                           </div>
                       </div>
                       </div>
                   </div>
             
-        </>
+        </> 
     )
 }
 

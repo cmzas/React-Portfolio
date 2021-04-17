@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from "../../../Images/logos/logo-1.png";
+import Image from "../../../Images/logo-1.png";
 
 const Clientcard = () => {
     return (
