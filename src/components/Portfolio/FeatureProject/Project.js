@@ -5,8 +5,9 @@ import CardData from "./ProjectCardData";
 const Project = () => {
     return (
         <>
-          <div class="container mb-5" id="projects">
-      <div class="project-title">
+          <div class="container-fluid mb-5 pb-5 project-bg" id="projects">
+            <div className="container">
+      <div class="project-title text-center">
         <h2>Featured Projects</h2>
       </div>
       <div class="row">
@@ -26,6 +27,7 @@ const Project = () => {
       </div>
       <div class="post-btn">
         <a href="#" class="btn btn-primary">View All Post</a>
+      </div>
       </div>
     </div>
             

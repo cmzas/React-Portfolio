@@ -2,8 +2,8 @@ import React from 'react';
 const Skiicard = (props) => {
     return (
         <>
-         <div className="col-lg-4 col-md-12 col-sm-10 col-12">
-                      <div className="mt-xl-5">
+         <div className="col-lg-4 col-md-6 mb-4">
+                      <div className="mt-lg-5">
                       <div className="card">
                           <div className="box">
                               <div className="img">

@@ -183,21 +183,51 @@ position: relative;
     background: #eaa400;
     transform: translate3d(0px -50%, 0px) scale(0.7);
 }
+/* project */
+.project-bg{
+    background-color: #F7F8FA;
+}
+.cards-image{
+    width: 100%;
+    height: 220px;
+}
+.cards-image img{
+    width: 100%;
+    height: 100%;
+}
+.cards{
+   background-color: white !important;
+   box-shadow: 0px 9px 18px rgba(0,0,0,0.12);
+}
+.project-list li{
+    list-style: none;
+    display: inline;
+    color: rgb(192, 189, 189);
+    font-size: 14px;
+}
+.project-list li a{
+    color: rgb(192, 189, 189);
+    
+}
+
+
+
+
 
 
 /* featured projects strat here */
-.project-title{
-    margin-top: 50px;
-/*     background-color: gainsboro;
- */    width: 100%!important;
-}
-.project-title h2{
+/* .project-title{
+    margin-top: 50px; 
+    background-color: gainsboro;  
+   width: 100%!important;
+} */
+/* .project-title h2{
     font-size: 1.75rem!important;
     font-weight: 700!important;
     text-align: center;
     padding-top: 50px;
-}
-.date1{
+} */
+/* .date1{
     margin-right: 270px;
 }
 .date2{
@@ -212,19 +242,21 @@ position: relative;
 .inner .card-img-top{
     height: 200px !important;
     width: 100%;
-}
-.inner{
+} */
+/* .inner{
     overflow: hidden;
-}
-.inner img{
+} */
+/* .inner img{
     transition: all 1.5s ease;
 }
 .inner:hover img{
     transform: scale(1.5);
-}
-h4{
+} */
+/* h4{
     float: left;
-}
+} */
+
+
 .post-btn{
     margin-top: 50px;
     text-align: center;
@@ -300,8 +332,8 @@ margin-bottom: 30px;
     background-image: linear-gradient(#2193b0, #6dd5ed);
 }
 .slider img{
-    width: 300px !important;
-    height: 300px !important;
+    width: 150px !important;
+    height: 150px !important;
     margin: 0 auto;
     border-radius: 50%;
     margin-bottom: 30px;
@@ -322,7 +354,7 @@ margin-bottom: 30px;
 }
 .carousel button{
     /* background-color: orange !important; */
-    display: none !important;
+    /* display: none !important; */
 }
 .slider-title h1{
     padding-bottom: 25px;

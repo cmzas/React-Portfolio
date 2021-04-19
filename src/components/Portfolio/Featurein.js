@@ -9,16 +9,16 @@ const Featurein = () => {
         <h2>Featured in</h2>
       </div>
     <div class="row">
-      <div class="col-md-3 col-lg- mt-5">
+      <div class="col-6 col-md-3 col-lg- mt-5">
         <img class="img-fluid" src={Image} width="180px" height="auto" />
       </div>
-      <div class="col-md-3 mt-5">
+      <div class="col-6 col-md-3 mt-5">
         <img class="img-fluid" src={Image} width="170px" height="auto" />
       </div>
-      <div class="col-md-3 mt-5">
+      <div class="col-6 col-md-3 mt-5">
         <img class="img-fluid" src={Image} width="180px" height="auto" />
       </div>
-      <div class="col-md-3 mt-5">
+      <div class="col-6 col-md-3 mt-5">
         <img class="img-fluid" src={Image} width="180px" height="auto" />
       </div>
     </div>

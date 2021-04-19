@@ -15,32 +15,32 @@ const Client = () => {
       </div>
         <div className="row">
 
-        <div className="col-lg-2 col-md-4 col-sm-4 col-12 mt-lg-1">
+        <div className="col-lg-2 col-md-4 col-sm-4 col-6 mt-lg-1">
                 <div className="col-md-12">
                     <a href="#"><img className="img-fluid" src={Image} /></a>
                 </div>
             </div>
-            <div className="col-lg-2 col-md-4 col-sm-4 col-12 mt-lg-1">
+            <div className="col-lg-2 col-md-4 col-sm-4 col-6 mt-lg-1">
                 <div className="col-md-12">
                     <a href="#"><img className="img-fluid" src={Image} /></a>
                 </div>
             </div>
-            <div className="col-lg-2 col-md-4 col-sm-4 col-12 mt-lg-1">
+            <div className="col-lg-2 col-md-4 col-sm-4 col-6 mt-lg-1">
                 <div className="col-md-12">
                     <a href="#"><img className="img-fluid" src={Image} /></a>
                 </div>
             </div>
-            <div className="col-lg-2 col-md-4 col-sm-4 col-12 mt-lg-1">
+            <div className="col-lg-2 col-md-4 col-sm-4 col-6 mt-lg-1">
                 <div className="col-md-12">
                     <a href="#"><img className="img-fluid" src={Image} /></a>
                 </div>
             </div>
-            <div className="col-lg-2 col-md-4 col-sm-4 col-12 mt-lg-1">
+            <div className="col-lg-2 col-md-4 col-sm-4 col-6 mt-lg-1">
                 <div className="col-md-12">
                     <a href="#"><img className="img-fluid" src={Image} /></a>
                 </div>
             </div>
-            <div className="col-lg-2 col-md-4 col-sm-4 col-12 mt-lg-1">
+            <div className="col-lg-2 col-md-4 col-sm-4 col-6 mt-lg-1">
                 <div className="col-md-12">
                     <a href="#"><img className="img-fluid" src={Image} /></a>
                 </div>
