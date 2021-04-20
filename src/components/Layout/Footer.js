@@ -4,10 +4,11 @@ import Image from "../../Images/profile.jpg";
 const Footer = () => {
     return (
         <>
-            <div class="jumbotron-fluid bg-primary mt-5" id="contact">
+        <footer class="bg-primary">
+            <div class="container bg-primary">
 
                 <div class="col-md-12">
-                    <div class="mt-xl-5">
+                    
                         <div class="footer">
                             <div class="box text-center pt-5">
                                 <div class="img">
@@ -21,16 +22,18 @@ const Footer = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                       
                     </div>
 
-                    <div className="copy-right bg-dark">
-                    <p>Template Copyright © <a href="#"> 3rd Wave Media</a></p>
-                    </div>
+                    
 
 
 
                 </div>
+                <div className="copy-right bg-dark">
+                    <p>Template Copyright © <a href="#"> 3rd Wave Media</a></p>
+                    </div>
+                </footer>
 
         </>
     )

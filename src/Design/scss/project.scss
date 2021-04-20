@@ -1,0 +1,40 @@
+$color-lightblue:#41A4F5;
+$color-white:#ffffff;
+$color-lighgray:#f7f8fa;
+$color-gray:#434e5e;
+.hero-bg{
+    background-color:$color-lightblue;
+    color:$color-white !important;
+}
+.project-bg{
+    background-color: $color-lighgray;
+}
+.menu button{
+    color:$color-gray;
+    font-family: sans-serif;
+    font-size: 16px;
+    border: none;
+    padding: 3px 5px;
+    background-color:transparent;
+}
+.menu button:hover{
+    background-color: $color-lightblue;
+    color:$color-white;
+    border-radius: 5px;
+}
+.menu button:focus{
+    border: none !important;
+    outline: none !important;
+    background-color: $color-lightblue !important;
+    color:$color-white;
+    border-radius: 5px;
+
+}
+
+.menu{
+    text-align: center;
+    padding: 0;
+   
+ 
+    // background-color: red;
+}

@@ -4,6 +4,7 @@ import Image from "../../Images/press-logo-1.png";
 const Featurein = () => {
     return (
         <>
+        <div className="jumbotron-fluid f-bg pb-5">
           <div class="container">
     <div class="featured-title">
         <h2>Featured in</h2>
@@ -22,6 +23,7 @@ const Featurein = () => {
         <img class="img-fluid" src={Image} width="180px" height="auto" />
       </div>
     </div>
+  </div>
   </div>
             
         </>

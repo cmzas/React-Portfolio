@@ -1,13 +1,13 @@
 import React from 'react';
 import Carousels from "./Carousels";
-import Image from "../../../Images/logo-1.png";
+import Image from "../../Images/logo-1.png";
 
 
 const Client = () => {
     return (
         <>
             
-    <div className="col-md-12 mb-2" id="feedback">
+    <div className="col-md-12 pb-2 client-bg">
       
       <div className="container">
         <div className="title">

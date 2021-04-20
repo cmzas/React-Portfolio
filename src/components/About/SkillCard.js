@@ -1,5 +1,5 @@
 import React from 'react';
-const Skiicard = (props) => {
+const Skillcard = (props) => {
     return (
         <>
          <div className="col-lg-4 col-md-6 mb-4">
@@ -24,4 +24,4 @@ const Skiicard = (props) => {
     )
 }
 
-export default Skiicard;
+export default Skillcard;

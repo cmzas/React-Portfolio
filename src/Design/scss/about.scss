@@ -1,0 +1,324 @@
+$color-lightblue:#41A4F5;
+$color-white:#ffffff;
+$color-lighgray:#f7f8fa;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    overflow-x: hidden;
+}
+
+.banner {
+    /* background-image: url(../uploads/projects/just.jpg); */
+    background-color: #00aeff !important;
+    width: 100%;
+    background-size: cover;
+}
+.image img {
+    width: 240px;
+}
+.content {
+    color: #fff;
+    padding-bottom: 20px;
+}
+.content h2 {
+    font-size: 4rem;
+    font-weight: bolder;
+}
+.content p a {
+    color: #000;
+}
+
+/* banner area close here */
+
+/* skill section start here */
+
+.skill h2 {
+    font-size: 1.75rem;
+    font-weight: 700 !important;
+}
+.skill p {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+/* card section start here */
+.card {
+    box-shadow: 0 30px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.card .box {
+    position: relative;
+}
+.card .box .img {
+    width: 100px;
+    height: 100px;
+    margin: 30px auto;
+    background-color: #007bff;
+    padding: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+.card .box img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.card .box h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.card .box p {
+    margin-top: 20px;
+    padding-left: 50px;
+}
+.card .box i {
+    color: #007bff;
+}
+.title h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.card-icons {
+    color: #007bff;
+    font-size: 40px;
+}
+.card-body a {
+    color: #007bff;
+    float: right;
+}
+.card-body a:hover {
+    color: #007bff;
+}
+
+/* testimonials start here */
+
+.shadow-effect {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid #ececec;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.2);
+}
+.shadow-effect p {
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 0 0 17px 0;
+    font-weight: 300;
+}
+.img-circle {
+    border-radius: 50%;
+    vertical-align: middle;
+    max-width: 120px;
+    transform-style: preserve-3d;
+    margin: 0 auto 17px;
+}
+#customer-testimonials {
+    margin-top: 6%;
+}
+.testimonial-name {
+    margin: -17px auto 0;
+    display: table;
+    width: auto;
+    background: linear-gradient(135deg, #ff3e00, #eaa400);
+    padding: 9px 35px;
+    border-radius: 12px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0px 9px 18px rgba(0, 0, 0, 0.12), 0px 5px 7px rgba(0, 0, 0, 0.5);
+}
+#customer-testimonials .item {
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 0px;
+    opacity: 0.2;
+    transform: scale3d(0.8, 0.8, 1);
+    transition: all 0.3s ease-in-out;
+}
+#customer-testimonials .owl-item.active.center .item {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #eaa400;
+    transform: translate3d(0px -50%, 0px) scale(0.7);
+}
+
+.client-bg{
+    background-color: $color-white;
+}
+/* project */
+.blog-bg {
+    background-color: #f7f8fa;
+}
+.cards-image {
+    width: 100%;
+    height: 220px;
+}
+.cards-image img {
+    width: 100%;
+    height: 100%;
+}
+.cards {
+    background-color: white !important;
+    box-shadow: 0px 9px 18px rgba(0, 0, 0, 0.12);
+}
+.project-list li {
+    list-style: none;
+    display: inline;
+    color: rgb(192, 189, 189);
+    font-size: 14px;
+}
+.project-list li a {
+    color: rgb(192, 189, 189);
+}
+
+/* featured projects strat here */
+/* .project-title{
+    margin-top: 50px; 
+    background-color: gainsboro;  
+   width: 100%!important;
+} */
+/* .project-title h2{
+    font-size: 1.75rem!important;
+    font-weight: 700!important;
+    text-align: center;
+    padding-top: 50px;
+} */
+/* .date1{
+    margin-right: 270px;
+}
+.date2{
+    margin-right: 270px;
+}
+.date3{
+    margin-right: 270px;
+}
+.date4{
+    margin-right: 270px;
+}
+.inner .card-img-top{
+    height: 200px !important;
+    width: 100%;
+} */
+/* .inner{
+    overflow: hidden;
+} */
+/* .inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+} */
+/* h4{
+    float: left;
+} */
+
+.post-btn {
+    margin-top: 50px;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+/* featured in styling start here */
+.featured-title h2 {
+    font-weight: 700 !important;
+    text-align: center;
+}
+/* footer section start here */
+.c-bg,.f-bg{
+    background-color: $color-white;
+}
+.carousels {
+    /* background-color: #00aeff !important; */
+    border-radius: 10px !important;
+    background-image: linear-gradient(#2193b0, #6dd5ed);
+}
+.slider img {
+    width: 150px !important;
+    height: 150px !important;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.slider p {
+    /* background-color: #00f7ff !important; */
+    color: black !important;
+    opacity: 1 !important;
+    font-size: 18px !important;
+    font-family: sans-serif;
+}
+.carousel .thumb {
+    display: none !important;
+}
+.carousel-status {
+    display: none !important;
+}
+.carousel button {
+    /* background-color: orange !important; */
+    /* display: none !important; */
+}
+.slider-title h1 {
+    padding-bottom: 25px;
+    color: white !important;
+    font-weight: bold;
+}
+
+/* .carousel button .control-prev{
+    color: orangered !important;
+    background-color: orangered !important;
+
+} */
+// featured product
+.project-card-bg{
+    background-color: white;
+    box-shadow: 0px 9px 18px rgba(212, 210, 210, 0.979);
+}
+.project-card-image img {
+    width: 100%;
+    
+}
+.project-card-image {
+    position: relative;
+    color: white;
+}
+.project-card-image .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.project-card-text{
+    text-align: center;
+}
+.project-card-text h1{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding: 8px 0px 0px 0px;
+}
+
+.list-text p{
+    font-size: 12px;
+    color: white;
+    background-color: #58677C;
+    font-weight: bold;
+    border-radius: 10px;
+    padding:2px 0px !important;
+    
+}
+.feature-project-heading .main-heading{
+    font-size: 28px;
+    font-weight: bold;
+}

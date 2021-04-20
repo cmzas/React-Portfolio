@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const Projectcard = (props) => {
+const Blogcard = (props) => {
   return (
     <>
       <div class="col-md-6 mt-5 mb-2 container">
@@ -47,4 +47,4 @@ const Projectcard = (props) => {
   )
 }
 
-export default Projectcard;
+export default Blogcard;

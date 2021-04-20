@@ -1,6 +1,6 @@
 import React from 'react'
-import Skillcard from "./Skiicard";
-import CardData from "./SkillCardData";
+import Skillcard from "./SkillCard";
+import CardData from "./Data/SkillCardData";
 
 const Skill = () => {
     return (

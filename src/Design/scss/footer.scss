@@ -1,0 +1,44 @@
+
+.footer .box .img{
+    width: 200px;
+     /* height: 200px; */
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+    margin: 0 auto;
+   
+   
+}
+.footer .box .img img{
+width: 50%;
+height: 50%;
+border-radius: 50%;
+}
+.hire-title{
+    text-align: center;
+    color: #fff;
+}
+.hire-title h2{
+    font-weight: 700;
+}
+.hire-title p{
+    /* padding: 0 25px 0 25px; */
+}
+.hire-title p a{
+    color: #000;
+}
+.hire-title .btn{
+background-color: #0055ff;
+margin-bottom: 30px;
+}
+/* .bg-dark{
+    width: 100%;
+} */
+.bg-dark p{
+    color: #fff;
+    padding:10px 10px;
+    text-align: center;
+    margin-bottom:0px !important ;
+}
+.bg-dark p a{
+    color: #fff;
+}

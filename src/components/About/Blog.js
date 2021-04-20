@@ -1,20 +1,20 @@
 import React from 'react'
-import Projectcard from "./Projectcard";
-import CardData from "./ProjectCardData";
+import BlogCard from "./BlogCard";
+import CardData from "./Data/BlogCardData";
 
 const Project = () => {
     return (
         <>
-          <div class="container-fluid mb-5 pb-5 project-bg" id="projects">
+          <div class="container-fluid mb-5 pb-5 blog-bg pt-3">
             <div className="container">
       <div class="project-title text-center">
-        <h2>Featured Projects</h2>
+        <h2>Latest Blog Posts</h2>
       </div>
       <div class="row">
          
           {CardData.map(card=>{
                         return(
-                          <Projectcard
+                          <BlogCard
           
                           image={card.image && card.image}
                           title={card.title && card.title}

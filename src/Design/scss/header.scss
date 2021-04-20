@@ -1,0 +1,28 @@
+.navbar{
+    background-color: #007bff !important;
+}
+nav button{
+    color: #fff;
+}
+nav a{
+    color: #fff;
+    font-weight: 400;
+}
+.active a{
+    font-weight: bolder!important;
+}
+.active a:hover{
+    font-weight: bolder!important;
+    color: #fff;
+}
+
+.icons a{
+    color: white;
+    padding: 10px 11px 10px 11px;
+    background-color: #007bff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.icons a:hover{
+ background-color: rgba(0,0,0,0.5);
+}

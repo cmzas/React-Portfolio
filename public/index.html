@@ -37,5 +37,32 @@ crossorigin="anonymous"></script>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+
+    <script src="https://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+    <script>
+          $(function(){
+            $('.awesome-portfolio-content').mixItUp({
+           animation: {
+               effects: 'rotateZ',
+               duration: 1000,
+                }
+            });
+            
+           $('.blog-column-content').mixItUp({
+           animation: {
+               effects: 'scale',
+               duration: 1000,
+                }
+            });	
+            
+           $('.portfolio-column-content').mixItUp({
+           animation: {
+               effects: 'fade rotateY(-180deg)',
+               duration: 1000,
+                }
+            });
+        });	
+    </script>
   </body>
 </html>

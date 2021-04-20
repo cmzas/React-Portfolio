@@ -1,16 +1,17 @@
 import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import Image from "../../../Images/sliderone.jpg";
-import Imagetwo from "../../../Images/slidertwo.jpg";
-import Imagethree from "../../../Images/sliderthree.jpg";
-// import Imagefour from "../../Images/profile-4.jpg";
+import Image from "../../Images/sliderone.jpg";
+import Imagetwo from "../../Images/slidertwo.jpg";
+import Imagethree from "../../Images/sliderthree.jpg";
+
 
 const Carousels = () => {
    
     return (
         <>
-        <div className="container carousels mt-5 pt-5">
+        <div className="jumbotron-fluid c-bg pt-5 pb-5">
+        <div className="container carousels pt-5 pt-5">
             <Carousel autoPlay infiniteLoop>
                 <div className="slider">
                     <div className="col-md-12">
@@ -52,6 +53,7 @@ const Carousels = () => {
                     </div>
                 </div>
             </Carousel>
+            </div>
             </div>
 
         </>
