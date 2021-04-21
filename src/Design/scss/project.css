@@ -34,4 +34,14 @@
   text-align: center;
   padding: 0;
 }
+
+.list-text p {
+  font-size: 11px !important;
+}
+
+@media only screen and (max-width: 440px) {
+  .list-text p {
+    font-size: 8px !important;
+  }
+}
 /*# sourceMappingURL=project.css.map */

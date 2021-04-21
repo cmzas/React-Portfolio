@@ -43,6 +43,10 @@ const Navbar = () => {
                             <ProjectCard
                             imagesrc={obj.imagesrc}
                             title={obj.title}
+                            listone={obj.listone}
+                            listtwo={obj.listtwo}
+                            listthree={obj.listthree}
+                            listfour={obj.listfour}
                             />
                         )
                     })
@@ -54,6 +58,10 @@ const Navbar = () => {
                             <ProjectCard
                             imagesrc={obj.imagesrc}
                             title={obj.title}
+                            listone={obj.listone}
+                            listtwo={obj.listtwo}
+                            listthree={obj.listthree}
+                            listfour={obj.listfour}
                             />
                         )
                     })
@@ -66,6 +74,10 @@ const Navbar = () => {
                             <ProjectCard
                             imagesrc={obj.imagesrc}
                             title={obj.title}
+                            listone={obj.listone}
+                            listtwo={obj.listtwo}
+                            listthree={obj.listthree}
+                            listfour={obj.listfour}
                             />
                         )
                     })
@@ -77,6 +89,10 @@ const Navbar = () => {
                             <ProjectCard
                             imagesrc={obj.imagesrc}
                             title={obj.title}
+                            listone={obj.listone}
+                            listtwo={obj.listtwo}
+                            listthree={obj.listthree}
+                            listfour={obj.listfour}
                             />
                         )
                     })
@@ -88,6 +104,10 @@ const Navbar = () => {
                             <ProjectCard
                             imagesrc={obj.imagesrc}
                             title={obj.title}
+                            listone={obj.listone}
+                            listtwo={obj.listtwo}
+                            listthree={obj.listthree}
+                            listfour={obj.listfour}
                             />
                         )
                     })
@@ -99,6 +119,10 @@ const Navbar = () => {
                             <ProjectCard
                             imagesrc={obj.imagesrc}
                             title={obj.title}
+                            listone={obj.listone}
+                            listtwo={obj.listtwo}
+                            listthree={obj.listthree}
+                            listfour={obj.listfour}
                             />
                         )
                     })

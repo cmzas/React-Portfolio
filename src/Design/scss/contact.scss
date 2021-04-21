@@ -1,0 +1,103 @@
+$color-orange:#FFA700;
+$color-white:#ffffff;
+$color-black: #000000;
+$color-lightgray:#e0dcdc;
+$color-lightblue:#41A4F5;
+$color-darkgray:#808080;
+$color-gray:#434e5e;
+
+// form right
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.form-right-heading h1{
+    color:$color-black;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px 0px 10px 0px;
+}
+
+form input{
+    background-color: $color-white !important;
+    border:1px solid $color-lightgray !important;
+    padding: 25px 0px 25px 10px !important;
+    color:$color-black !important;
+}
+form input::placeholder{
+    color:$color-darkgray !important;
+}
+form textarea{
+    background-color:$color-white !important;
+    border:1px solid $color-lightgray !important;
+    height: 200px !important;
+    margin-bottom:10px ;
+    color:$color-black !important;
+}
+form textarea::placeholder{
+    color: $color-darkgray !important;
+}
+form button{
+    width: 100%;
+    background-color:$color-lightblue !important;
+    border: none !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    color: white !important;
+    padding: 8px 0px;
+    border-radius: 5px;
+
+}
+form button:focus{
+    border: none !important;
+    outline:0 !important;
+    box-shadow: none !important;
+    background-color:rgb(0, 174, 255) !important;
+}
+.error{
+    color:rgb(204, 10, 10) !important;
+    font-size: 12px;
+}
+.social-icon{
+ 
+    @media only screen and (max-width: 450px) {
+        padding-left: 10px !important;
+      
+      }
+  
+
+   
+}
+.social-icon a i{
+font-size: 35px;
+
+@media only screen and (max-width: 450px) {
+    font-size: 25px;
+  
+  }
+}
+.profile-image{
+    width: 160px;
+    height: 160px;
+   margin: 0 auto;
+   
+}
+.profile-image img{
+    width: 100%;
+    border-radius: 50% !important;
+    
+}
+.profile-content{
+    background-color:$color-white !important;
+}
+.intro-text p{
+    color: $color-gray !important;
+    font-size: 16px;
+    text-align: justify;
+}
+.social-channel p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}

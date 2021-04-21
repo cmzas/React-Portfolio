@@ -15,18 +15,18 @@ const ProjectCard = (props) => {
 
                         <div className="col-lg-12">
                             <div className="row">
-                                <div className="list-text col-3 col-md-6 p-2 col-lg-3">
-                                    <p>Angular</p>
+                                <div className="list-text col-3 col-sm-4 col-md-6 p-1 col-lg-4 col-xl-3">
+                                    <p>{props.listone}</p>
 
                                 </div>
-                                <div className="list-text col-3 col-md-6 p-2 col-lg-3">
-                                    <p>Angular</p>
+                                <div className="list-text col-3 col-sm-4 col-md-6 p-1 col-lg-4 col-xl-3">
+                                    <p>{props.listtwo}</p>
                                 </div>
-                                <div className=" list-text col-3 col-md-6 p-2 col-lg-3">
-                                    <p>Angular</p>
+                                <div className=" list-text col-3 col-sm-4 col-md-6 p-1 col-lg-4 col-xl-3">
+                                    <p>{props.listthree}</p>
                                 </div>
-                                <div className=" list-text col-3 col-md-6 p-2 col-lg-3">
-                                    <p>Angular</p>
+                                <div className=" list-text col-3 col-sm-4 col-md-6 p-1 col-lg-4 col-xl-3">
+                                    <p>{props.listfour}</p>
                                 </div>
                             </div>
                         </div>
