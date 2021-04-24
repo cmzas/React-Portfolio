@@ -1,3 +1,14 @@
+$color-lightblue: #41a4f5;
+$color-white: #ffffff;
+$color-lighgray: #f7f8fa;
+$color-orange: #ffa700;
+$color-black: #000000;
+$color-lightgray: #e0dcdc;
+$color-darkgray: #808080;
+$color-gray: #434e5e;
+$color-btn:#3483C4;
+$color-hover:#3b93db;
+$color-lightblack:#58677C;
 
 .blog-intro{
     background-color: #41A4F5;
@@ -56,13 +67,15 @@
     line-height: 1.2;
 }
 .image-inner{
-    overflow: hidden;
+    height: 200px;
 }
 .image-inner img{
-    transition: all 1.5s ease;
+    height: 100%;
+    object-fit: cover;
+    transition: all 1s ease;
 }
 .image-inner:hover img{
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 .blog-date{
     background-color: #d4cece;
@@ -84,3 +97,30 @@ display: inline-block;
 .card{
     border: none;
 }
+.blo-card-text h1 a{
+    color: $color-lightblue !important;
+    text-decoration: none;
+    font-size: 14px;
+}
+.blo-card-text p{
+    color: $color-lightblack;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 16px;
+    @media only screen and (max-width:992px) {
+        display: grid;
+          grid-template-columns: repeat(2,1fr);
+          grid-column-gap: 10px;
+          grid-row-gap: 16px;
+      }
+      @media only screen and (max-width:768px) {
+        display: grid;
+          grid-template-columns: repeat(1,1fr);
+          grid-column-gap: 10px;
+          grid-row-gap: 16px;
+      }
+    
+  }

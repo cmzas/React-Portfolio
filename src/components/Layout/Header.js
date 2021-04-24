@@ -18,7 +18,7 @@ const Header = () => {
                 </button>
              <div class="collapse navbar-collapse" id="collapsibleNavId">
                  <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                     <li class="nav-item active disabled">
+                     <li class="nav-item">
                          <Link class="nav-link" to="/">ABOUT</Link>
                      </li>
                      <li class="nav-item">

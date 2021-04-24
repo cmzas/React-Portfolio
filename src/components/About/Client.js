@@ -1,54 +1,34 @@
 import React from 'react';
-import Carousels from "./Carousels";
-import Image from "../../Images/logo-1.png";
+import ClientComponent from "./AboutComponent/ClientComponent";
+import Carousels from "./AboutComponent/Carousels";
+import ClientBadges from "./Array/ClientData";
+import CarouselData from "./Array/CarouselData";
+
 
 
 const Client = () => {
     return (
         <>
-            
-    <div className="col-md-12 pb-2 client-bg">
-      
-      <div className="container">
-        <div className="title">
-          <h2>Great clients I've worked with</h2>
-      </div>
-        <div className="row">
 
-        <div className="col-lg-2 col-md-4 col-sm-4 col-6 mt-lg-1">
-                <div className="col-md-12">
-                    <a href="#"><img className="img-fluid" src={Image} /></a>
-                </div>
+            <div className="col-md-12 pb-2 client-bg mt-5">
+                {ClientBadges.map(obj => {
+                    return (
+                        <ClientComponent
+                            obj={obj}
+                        />
+                    )
+                })}
+                {CarouselData.map(obj => {
+                    return (
+                        <Carousels
+                            obj={obj}
+                        />
+                    )
+                })}
+
+
             </div>
-            <div className="col-lg-2 col-md-4 col-sm-4 col-6 mt-lg-1">
-                <div className="col-md-12">
-                    <a href="#"><img className="img-fluid" src={Image} /></a>
-                </div>
-            </div>
-            <div className="col-lg-2 col-md-4 col-sm-4 col-6 mt-lg-1">
-                <div className="col-md-12">
-                    <a href="#"><img className="img-fluid" src={Image} /></a>
-                </div>
-            </div>
-            <div className="col-lg-2 col-md-4 col-sm-4 col-6 mt-lg-1">
-                <div className="col-md-12">
-                    <a href="#"><img className="img-fluid" src={Image} /></a>
-                </div>
-            </div>
-            <div className="col-lg-2 col-md-4 col-sm-4 col-6 mt-lg-1">
-                <div className="col-md-12">
-                    <a href="#"><img className="img-fluid" src={Image} /></a>
-                </div>
-            </div>
-            <div className="col-lg-2 col-md-4 col-sm-4 col-6 mt-lg-1">
-                <div className="col-md-12">
-                    <a href="#"><img className="img-fluid" src={Image} /></a>
-                </div>
-            </div>
-        </div>
-      </div>
-    </div>
-    <Carousels/>
+
         </>
     )
 }

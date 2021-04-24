@@ -1,5 +1,5 @@
 .hero-bg {
-  background-color: #41A4F5;
+  background-color: #41a4f5;
   color: #ffffff !important;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .menu button:hover {
-  background-color: #41A4F5;
+  background-color: #41a4f5;
   color: #ffffff;
   border-radius: 5px;
 }
@@ -25,7 +25,7 @@
 .menu button:focus {
   border: none !important;
   outline: none !important;
-  background-color: #41A4F5 !important;
+  background-color: #41a4f5 !important;
   color: #ffffff;
   border-radius: 5px;
 }
@@ -43,5 +43,21 @@
   .list-text p {
     font-size: 8px !important;
   }
+}
+
+.project-card-text h1 a {
+  text-decoration: none;
+  color: #41a4f5;
+  font-size: 16px;
+}
+
+.project-card-text h1 a:hover {
+  color: #3b93db;
+}
+
+.project-card-image img {
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=project.css.map */

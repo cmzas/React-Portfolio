@@ -1,50 +1,57 @@
-import React from 'react'
+import React from 'react';
+import {Link} from "react-router-dom";
+import Data from "../Blogs/BlogCardData";
 
 
-const Blogcard = (props) => {
-  return (
-    <>
-      <div class="col-md-6 mt-5 mb-2 container">
-        <div class="cards">
-          <div class="cards-image col-md-12 p-0">
-            <img class="cards-img-top" src={props.image} alt="image" />
-          </div>
-          <div class="cards-body">
-            <div className="cards-body-heading col-md-12">
-            <h4 class="cards-title mt-3"><a href="#">{props.title}</a></h4>
-            </div>
-            <ul className="project-list pl-3">
-              <li> <i class="far fa-clock pr-1"></i>{props.date}</li>
-              <li> <i class="fas fa-comment pl-2 pr-1"></i><a href="#">32 comments</a></li>
-            </ul>
-            {/* <div className="col-md-12 mt-4">
-              <div className="container">
-              <div className="row">
-                <div className="col-6  p-0 bg-primary">
-                  <p>
-                  <i class="far fa-clock"></i>{props.date}
-                  </p>
+const BlogCard = () => {
+  const blogs = Data.slice(0,4).map((blog) => {
+      return (
+          <div key={blog.id}>
+              <div class=" card rounded-0 border-0 shadow-sm  ">
+                  <div class="image-inner">
+                  <Link to={`/blog/${blog.id}`}><img class="card-img-top rounded-0" src={blog.image} alt="image" /></Link>
+                      
+                  </div>
+                  <div class="p-2">
+                      <div className="blo-card-text">
+                          <h1 class="mb-1"><Link to={`/blog/${blog.id}`}>{blog.title}</Link></h1>
 
-                </div>
-                <div className="col-6 p-0 bg-success">
-                  <p>
-                  <i class="fas fa-comment"></i><a href="#">32 comments</a>
-                  </p>
-                  
-                </div>
-                </div>
+                          <p>{blog.text}</p>
+
+                      </div>
+
+                  </div>
+                  <div class="card-footer border-0">
+                      <ul class="list-inline mb-0">
+                          <li><i class="far fa-clock mr-2"></i> {blog.date}</li>
+                          <li><i class="fas fa-comment ml-2"></i><a href="#">{blog.comment}</a></li>
+                      </ul>
+                  </div>
               </div>
 
-            </div> */}
-            <div className="card-body-text col-md-12 text-justify">
-              <p class="card-text pb-3">{props.text}</p>
-            </div>
           </div>
-        </div>
-      </div>
+      )
+  })
+ 
+  return (
+      <>
+          <div className="container about-grid py-5">
+              <div className="grid-container">
+                 
+                
 
-    </>
+                      {blogs}
+
+                      </div>
+                      <div className="center pt-5">
+           <Link to="/blog" className="view-project">View All Posts</Link>
+           </div>
+
+              </div>
+       
+
+
+      </>
   )
 }
-
-export default Blogcard;
+export default BlogCard;

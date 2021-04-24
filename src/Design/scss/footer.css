@@ -1,3 +1,7 @@
+.bg-footer {
+  background-color: #41A4F5;
+}
+
 .footer .box .img {
   width: 200px;
   /* height: 200px; */
@@ -22,11 +26,19 @@
 }
 
 .hire-title p {
-  /* padding: 0 25px 0 25px; */
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .hire-title p {
+    width: 100%;
+    padding: 0;
+  }
 }
 
 .hire-title p a {
-  color: #000;
+  color: #095ece;
 }
 
 .hire-title .btn {

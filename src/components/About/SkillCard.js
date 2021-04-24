@@ -7,14 +7,14 @@ const Skillcard = (props) => {
                       <div className="card">
                           <div className="box">
                               <div className="img">
-                                  <img src={props.imgsrc} alt="image" />
+                                  <img src={props.card.imgsrc} alt="image" />
                               </div>
-                              <h2>{props.title}</h2>
-                              <p><i className="fas fa-check"></i> {props.listone}</p>
-                              <p><i className="fas fa-check"></i> {props.listtwo}</p>
-                              <p><i className="fas fa-check"></i> {props.listthree}</p>
-                              <p><i className="fas fa-check"></i> {props.listfour}</p>
-                              <p><i className="fas fa-check"></i> {props.listfive}</p>
+                              <h2>{props.card.title}</h2>
+                              <p><i className="fas fa-check"></i> {props.card.listone}</p>
+                              <p><i className="fas fa-check"></i> {props.card.listtwo}</p>
+                              <p><i className="fas fa-check"></i> {props.card.listthree}</p>
+                              <p><i className="fas fa-check"></i> {props.card.listfour}</p>
+                              <p><i className="fas fa-check"></i> {props.card.listfive}</p>
                           </div>
                       </div>
                       </div>

@@ -1,6 +1,14 @@
-$color-lightblue:#41A4F5;
-$color-white:#ffffff;
-$color-lighgray:#f7f8fa;
+$color-lightblue: #41a4f5;
+$color-white: #ffffff;
+$color-lighgray: #f7f8fa;
+$color-orange: #ffa700;
+$color-black: #000000;
+$color-lightgray: #e0dcdc;
+$color-darkgray: #808080;
+$color-gray: #434e5e;
+$color-btn:#3483C4;
+$color-hover:#3b93db;
+$color-lightblack:#58677C;
 body{
     background-color: $color-lighgray;
 }
@@ -24,28 +32,39 @@ body{
     display: block;
 }
 .media-heading h4{
-    font-size: 1.3rem;
-    font-weight: 500;
-    line-height: 1.2;
-    padding-left: 1.5rem !important;
+    font-size: 32px;
+    color:$color-lightblack;
+    font-weight: bold;
+  
 
 }
 .media-date ul{
     list-style: none;
     padding-left: 0;
     color: #AAB4CB;
-    padding-left: 1.5rem !important;
+    
 
 }
 .media-date ul li{
     display: inline-block;
+    font-size: 12px;
 }
 .media-text p{
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.5;
-    color: #434E5E;
-    text-align: left;
-    padding-left: 1.5rem !important;
+    font-size: 16px;
+    color: $color-gray;
+    
 
+}
+.media-button a{
+    background-color:$color-btn !important;
+    color: $color-white;
+    padding: 10px 30px ;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none !important;
+    border-radius: 5px !important;
+}
+.media-button a:hover{
+    background-color:$color-hover !important;
+    color: $color-white !important;
 }

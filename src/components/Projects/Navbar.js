@@ -38,30 +38,13 @@ const Navbar = () => {
                     </nav>
                     <div className="row">
                     {active==="All" && 
-                    Data.map(obj=>{
-                        return(
-                            <ProjectCard
-                            imagesrc={obj.imagesrc}
-                            title={obj.title}
-                            listone={obj.listone}
-                            listtwo={obj.listtwo}
-                            listthree={obj.listthree}
-                            listfour={obj.listfour}
-                            />
-                        )
-                    })
-                   
+                            <ProjectCard/>
                     }
                     {active==="Php" && 
                     Data.filter(name=>name.category==="php").map(obj=>{
                         return(
                             <ProjectCard
-                            imagesrc={obj.imagesrc}
-                            title={obj.title}
-                            listone={obj.listone}
-                            listtwo={obj.listtwo}
-                            listthree={obj.listthree}
-                            listfour={obj.listfour}
+                            // obj={obj}
                             />
                         )
                     })
@@ -72,12 +55,7 @@ const Navbar = () => {
                     Data.filter(name=>name.category==="react").map(obj=>{
                         return(
                             <ProjectCard
-                            imagesrc={obj.imagesrc}
-                            title={obj.title}
-                            listone={obj.listone}
-                            listtwo={obj.listtwo}
-                            listthree={obj.listthree}
-                            listfour={obj.listfour}
+                            // obj={obj}
                             />
                         )
                     })
@@ -87,12 +65,7 @@ const Navbar = () => {
                     Data.filter(name=>name.category==="angular").map(obj=>{
                         return(
                             <ProjectCard
-                            imagesrc={obj.imagesrc}
-                            title={obj.title}
-                            listone={obj.listone}
-                            listtwo={obj.listtwo}
-                            listthree={obj.listthree}
-                            listfour={obj.listfour}
+                            // obj={obj}
                             />
                         )
                     })
@@ -102,12 +75,7 @@ const Navbar = () => {
                     Data.filter(name=>name.category==="python").map(obj=>{
                         return(
                             <ProjectCard
-                            imagesrc={obj.imagesrc}
-                            title={obj.title}
-                            listone={obj.listone}
-                            listtwo={obj.listtwo}
-                            listthree={obj.listthree}
-                            listfour={obj.listfour}
+                            // obj={obj}
                             />
                         )
                     })
@@ -117,12 +85,7 @@ const Navbar = () => {
                     Data.filter(name=>name.category==="ruby").map(obj=>{
                         return(
                             <ProjectCard
-                            imagesrc={obj.imagesrc}
-                            title={obj.title}
-                            listone={obj.listone}
-                            listtwo={obj.listtwo}
-                            listthree={obj.listthree}
-                            listfour={obj.listfour}
+                            // obj={obj}
                             />
                         )
                     })

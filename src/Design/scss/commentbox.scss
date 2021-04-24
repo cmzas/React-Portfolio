@@ -1,0 +1,131 @@
+$color-lightblue: #41a4f5;
+$color-white: #ffffff;
+$color-lighgray: #f7f8fa;
+$color-orange: #ffa700;
+$color-black: #000000;
+$color-lightgray: #e0dcdc;
+$color-darkgray: #808080;
+$color-gray: #434e5e;
+$color-btn:#3483C4;
+$color-hover:#3b93db;
+$color-lightblack:#58677C;
+
+
+textarea {
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/**********************************/
+/*Share Comments*/
+/*********************************/
+
+.shareCommentContainer {
+
+
+    width:100%;
+    margin: 0 auto;
+}
+
+.shareCommentContainer textarea {
+    background-color: $color-white !important;
+    height:auto;
+    padding: 20px;
+    width: 100%;
+    border: 1px solid #b3aeae;
+    outline: none;
+    border-radius: 4px;
+    resize: none;
+}
+.shareCommentContainer textarea::placeholder{
+    font-size: 12px;
+    color:$color-darkgray;
+}
+
+.shareCommentContainer .btn-success {
+    padding: 6px 15px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+   
+    border: medium none;
+    border-radius:5px;
+   background-color: $color-btn;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    color: #fff;
+   
+}
+.shareCommentContainer button:focus{
+    box-shadow: none !important;
+    background-color: $color-hover !important;
+}
+
+.shareCommentContainer button:hover {
+    cursor: pointer;
+    background-color: $color-hover;
+    color: $color-white;
+}
+
+/**********************************/
+/*Display Comments*/
+/*********************************/
+.fa-comments{
+    color:$color-lightblue;
+}
+.commentContainer {
+    position: relative;
+    max-width: 100%;
+    height:auto;
+    margin-bottom:4px;
+    padding:5px;
+    border: 1px solid #ddd7d7;
+//    background-color: $color-lightblue;
+   color: $color-white;
+    border-radius: 4px;
+}
+
+.commentText {
+    min-height: 30px;
+    border-radius: 3px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 1.5;
+    color:$color-lightblack;
+}
+
+.commentText > textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f2f2f2;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    -ms-border-radius: 4px 4px 0 0;
+    -o-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+}
+
+.commentContainer button {
+    margin-right: 10px;
+    margin-top: 20px;
+    padding: 6px 12px;
+    color: #333;
+    border:none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    background-color: transparent;
+    outline: none;
+}
+.commentContainer button .fa-trash-alt{
+    color: red !important;
+}
+.commentContainer button .fa-edit{
+    color:$color-lightblue !important
+}
+.commentContainer button:hover {
+    cursor: pointer;
+
+}

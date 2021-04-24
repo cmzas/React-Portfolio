@@ -1,7 +1,13 @@
-$color-lightblue:#41A4F5;
-$color-white:#ffffff;
-$color-lighgray:#f7f8fa;
-$color-gray:#434e5e;
+$color-lightblue: #41a4f5;
+$color-white: #ffffff;
+$color-lighgray: #f7f8fa;
+$color-orange: #ffa700;
+$color-black: #000000;
+$color-lightgray: #e0dcdc;
+$color-darkgray: #808080;
+$color-gray: #434e5e;
+$color-btn:#3483C4;
+$color-hover:#3b93db;
 .hero-bg{
     background-color:$color-lightblue;
     color:$color-white !important;
@@ -43,4 +49,16 @@ $color-gray:#434e5e;
     @media only screen and (max-width: 440px) {
         font-size: 8px !important;
       }
+}
+.project-card-text h1 a{
+    text-decoration: none;
+    color: $color-lightblue;
+    font-size: 16px;
+}
+.project-card-text h1 a:hover{
+    color:$color-hover;
+}
+.project-card-image img{
+    height: 200px;
+    object-fit: cover;
 }

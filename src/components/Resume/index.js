@@ -1,9 +1,17 @@
-import React from 'react'
+import React from 'react';
+import Hero from "../elements/Hero";
+import HeroData from "../elements/HeroData";
+import Resume from "./Resume";
 
 const Resumeindex = () => {
     return (
         <>
-        <h1>Resume Page</h1>
+         <Hero
+                title={HeroData[3].title}
+                text={HeroData[3].text}
+            />
+            <Resume/>
+        
             
         </>
     )

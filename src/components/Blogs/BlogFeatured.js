@@ -4,7 +4,7 @@ import Image from "../../Images/blog-post-thumb-1.jpg";
 const BlogFeatured = (props) => {
     return (
         <>
-          <div class="blog-bg pt-5">
+          <div class="blog-bg pt-5 pb-3">
         <div class="container">
             <div class="blog">
                 <div class="row">

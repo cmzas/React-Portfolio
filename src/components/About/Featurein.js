@@ -1,27 +1,24 @@
 import React from 'react'
-import Image from "../../Images/press-logo-1.png";
+import FeatureComponent from "./AboutComponent/FeatureComponent";
+import FeatureinData from "./Array/FeatureinData";
 
 const Featurein = () => {
     return (
         <>
-        <div className="jumbotron-fluid f-bg pb-5">
+        <div className="jumbotron-fluid featuredin-bg pb-5">
           <div class="container">
-    <div class="featured-title">
+    <div class="featured-title pt-4">
         <h2>Featured in</h2>
       </div>
     <div class="row">
-      <div class="col-6 col-md-3 col-lg- mt-5">
-        <img class="img-fluid" src={Image} width="180px" height="auto" />
-      </div>
-      <div class="col-6 col-md-3 mt-5">
-        <img class="img-fluid" src={Image} width="170px" height="auto" />
-      </div>
-      <div class="col-6 col-md-3 mt-5">
-        <img class="img-fluid" src={Image} width="180px" height="auto" />
-      </div>
-      <div class="col-6 col-md-3 mt-5">
-        <img class="img-fluid" src={Image} width="180px" height="auto" />
-      </div>
+      {FeatureinData.map(obj=>{
+        return(
+        <FeatureComponent
+        obj={obj}
+        />
+        )
+      })}
+     
     </div>
   </div>
   </div>
