@@ -136,26 +136,27 @@ $color-lightblack:#58677C;
     color: #434E5E;
 }
 .lead-title h1{
-    font-size: 1.25rem;
+    font-size:18px;
     color: #434E5E;
 }
-.lead-title h1 span{
-    color: #7d7f83;
-    font-size: 0.8rem;
-}
+
 .date p{
-    font-size: 0.875rem;
-    color: #54585e;
+    font-size:12px ;
+    color:rgb(197, 196, 196);
+   
 }
 .lead-content p{
     color: #58677c;
 }
 .lead-technology h1{
-    font-size: 1rem;
-    color: #434E5E;
+    font-size:16px ;
+    color: $color-gray;
+    font-weight: bold;
 }
 .achievement-title h1{
-    font-size: 1.1rem ;
+    font-size:16px ;
+    color: $color-gray;
+    font-weight: bold;
 }
 .achiev-content{
     color: #58677c;
@@ -188,8 +189,8 @@ $color-lightblack:#58677C;
     color: #434E5E;
 }
 .frontend-contetn p{
-    font-size: 0.8125rem;
-    color: #434E5E;
+    font-size:16px;
+color:$color-gray;
 }
 
 
@@ -226,8 +227,8 @@ $color-lightblack:#58677C;
     color: #434E5E;
 }
 .backend-contetn p{
-    font-size: 0.8125rem;
-    color: #434E5E;
+    font-size:16px;
+color:$color-gray;
 }
 
 .python-border{
@@ -261,36 +262,15 @@ $color-lightblack:#58677C;
 /* //other */
 
 
-.edu-title h1{
-    font-size: 1.25rem;
-    color: #434E5E;
-}
-.msc-heading h1{
-    font-size: 1.25rem;
-    color: #434E5E;
-}
 .msc-heading p{
     font-size: 1.25rem;
     color: #58677c;
 }
-.msc-content p{
-    font-size: 0.925rem;
+.degree-content p{
+    font-size:14px;
     color: #434E5E;
 }
 
-
-.bsc-heading h1{
-    font-size: 1.25rem;
-    color: #434E5E;
-}
-.bsc-heading p{
-    font-size: 1.25rem;
-    color: #58677c;
-}
-.bsc-content p{
-    font-size: 0.925rem;
-    color: #434E5E;
-}
 
 /* //education */
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import Data from "./ProjectData";
+import Data from "../Data/Project/ProjectData";
 const ProjectCard = () => {
     const projects = Data.map((project) => {
         return (

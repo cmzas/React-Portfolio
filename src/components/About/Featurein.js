@@ -1,11 +1,11 @@
 import React from 'react'
 import FeatureComponent from "./AboutComponent/FeatureComponent";
-import FeatureinData from "./Array/FeatureinData";
+import FeatureinData from "../Data/About/FeatureinData";
 
 const Featurein = () => {
     return (
         <>
-        <div className="jumbotron-fluid featuredin-bg pb-5">
+        <div className="jumbotron-fluid featuredin-bg pb-3">
           <div class="container">
     <div class="featured-title pt-4">
         <h2>Featured in</h2>

@@ -1,8 +1,8 @@
 import React from 'react'
 import Media from "./Media";
 import Hero from "../elements/Hero";
-import MediaData from "./MediaData";
-import HeroData from "../elements/HeroData";
+import MediaData from "../Data/Talk/MediaData";
+import HeroData from "../Data/Hero/HeroData";
 
 const Talkindex = () => {
     return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import Hero from "../elements/Hero";
 import Navbar from "./Navbar";
-import HeroData from "../elements/HeroData";
+import HeroData from "../Data/Hero/HeroData";
 
 const Projectindex = () => {
     return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import Hero from "../elements/Hero";
-import HeroData from "../elements/HeroData";
+import HeroData from "../Data/Hero/HeroData";
 import Resume from "./Resume";
 
 const Resumeindex = () => {

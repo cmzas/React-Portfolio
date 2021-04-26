@@ -1,7 +1,7 @@
 import React from "react";
 import Contact from "./Contact";
 import Hero from "../elements/Hero";
-import HeroData from "../elements/HeroData";
+import HeroData from "../Data/Hero/HeroData";
 
 
 

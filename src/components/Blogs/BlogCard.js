@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import Data from "./BlogCardData";
+import Data from "../Data/Blog/BlogCardData";
 const BlogCard = () => {
     const blogs = Data.map((blog) => {
         return (

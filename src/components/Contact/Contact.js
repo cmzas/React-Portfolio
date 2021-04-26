@@ -12,7 +12,7 @@ const Contact = () => {
 				<img src={Image}  alt="profile=image"/>
 			</div>
 			<div className="profile-content p-5">
-			<div className="intro-text">
+			<div className="form-intro-text">
 				<p>I'm currently taking on freelance work. If you are interested in hiring me for your project please use the form below to get in touch. Want to know how I work and what I can offer? Check out my <a href="#">project case studies</a> and <a href="#">resume</a>.</p>
 			</div>
 			<div className="social-channel">

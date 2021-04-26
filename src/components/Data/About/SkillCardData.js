@@ -1,7 +1,7 @@
-
+import Icon from "../../../Images/skillicon.png";
 const CardData=[
     {
-        imgsrc:"https://wallpapercave.com/wp/wp6784386.jpg",
+        imgsrc:Icon,
         title:"Frontend" ,
         listone:"React/Redux/Angular",
         listtwo:"Javascript",
@@ -10,7 +10,7 @@ const CardData=[
         listfive:"HTML/CSS/SASS/LESS",
     },
     {
-        imgsrc:"https://wallpapercave.com/wp/wp6784386.jpg",
+        imgsrc:Icon,
         title:"Backend" ,
         listone:"React/Redux/Angular",
         listtwo:"Javascript",
@@ -19,7 +19,7 @@ const CardData=[
         listfive:"HTML/CSS/SASS/LESS",
     },
     {
-        imgsrc:"https://wallpapercave.com/wp/wp6784386.jpg",
+        imgsrc:Icon,
         title:"Others" ,
         listone:"React/Redux/Angular",
         listtwo:"Javascript",

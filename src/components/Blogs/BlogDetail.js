@@ -1,11 +1,11 @@
 import React from 'react';
-import ProfileImage from "../../Images/profile.jpg";
+
 import { Link } from "react-router-dom";
 import { TwitterTweetEmbed } from 'react-twitter-embed';
-import Imagetemplate from "../../Images/blog-post-image.png";
+
 import CommentBox from "./CommentBox";
 import { useParams } from "react-router-dom";
-import Data from "./BlogCardData";
+import Data from "../Data/Blog/BlogCardData";
 
 const BlogDetail = () => {
     const { blogId } = useParams();
@@ -20,12 +20,12 @@ const BlogDetail = () => {
 
                     </div>
                     <div className="blog-profile-image">
-                        <img src={ProfileImage} alt="image" />
+                        <img src={data.profileimage} alt="image" />
                     </div>
                     <div className="blog-date-list">
                         <ul>
-                            <li><i class="far fa-clock pr-1"></i>June 18, 2018</li>
-                            <li> <i class="fas fa-comment pr-1"></i><a href="#">32 comments</a></li>
+                            <li><i class="far fa-clock pr-1"></i>{data.date}</li>
+                            <li> <i class="fas fa-comment pr-1"></i><a href="#">{data.comment}</a></li>
                         </ul>
 
                     </div>
@@ -39,7 +39,7 @@ const BlogDetail = () => {
                         <img src={data.image} />
                     </div>
                     <div className="blog-content-text">
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+                        <p>{data.blogcontent}</p>
 
                     </div>
                     <div className="blog-content-button col-md-10 offset-md-1 text-center pb-4">
@@ -59,25 +59,25 @@ const BlogDetail = () => {
                     <div className="container pt-3 pb-3">
                         <div className="quote text-center">
                             <i class="fas fa-quote-right"></i>
-                            <p>"Walking on water and developing software from a specification are easy if both are frozen."</p>
-                            <h1>-Edward V Berard</h1>
+                            <p>"{data.quote}"</p>
+                            <h1>{data.writename}</h1>
                         </div>
                     </div>
                     <div className="blog-inner-content">
-                        <h1>Heading Vestibulum Fringilla</h1>
-                        <p>Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.</p>
+                        <h1>{data.blogheading}</h1>
+                        <p>{data.blogpara}</p>
                         <p>You can embed a tweet on your blog post:</p>
                         <div className="twitter">
                             <TwitterTweetEmbed className="twitter"
-                                tweetId={'933354946111705097'}
+                                tweetId={data.tweetid}
                             />
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+                        <p>{data.blogparatwo}</p>
                         <ul class="list-group">
-                            <li class="list-group-item"><i class="fas fa-hand-point-right"></i>Lorem ipsum dolor sit amet consectetuer.</li>
-                            <li class="list-group-item"><i class="fas fa-hand-point-right"></i>Lorem ipsum dolor sit amet consectetuer.</li>
-                            <li class="list-group-item"><i class="fas fa-hand-point-right"></i>Lorem ipsum dolor sit amet consectetuer.</li>
-                            <li class="list-group-item"><i class="fas fa-hand-point-right"></i>Lorem ipsum dolor sit amet consectetuer.</li>
+                            <li class="list-group-item"><i class="fas fa-hand-point-right"></i>{data.bloglistone}</li>
+                            <li class="list-group-item"><i class="fas fa-hand-point-right"></i>{data.bloglisttwo}</li>
+                            <li class="list-group-item"><i class="fas fa-hand-point-right"></i>{data.bloglistthree}</li>
+                            <li class="list-group-item"><i class="fas fa-hand-point-right"></i>{data.bloglistfour}</li>
                         </ul>
                         {/* <p>Below are some code examples using the highlight.js plugin. You can customise the script to include more languages via their website if you need to. The stylesheet used in this template is atom-one-dark.css</p>
                         <div class="mb-5 code">
@@ -94,21 +94,21 @@ const BlogDetail = () => {
                         </div> */}
 
                         <div className="blog-video">
-                            <h1>Responsive Video</h1>
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/RS36gBEp8OI?rel=0"></iframe>
+                            <h1>{data.videotitle}</h1>
+                            <iframe class="embed-responsive-item" src={data.videolink}></iframe>
                         </div>
                         <div className="blog-template">
-                            <h1>Heading Inventore Veritatis Quasi</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>
-                            <img src={Imagetemplate} alt="imagetemplate" />
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>
+                            <h1>{data.blogheadingtwo}</h1>
+                            <p>{data.parathree}</p>
+                            <img src={data.templateimage} alt="imagetemplate" />
+                            <p>{data.templatetext}</p>
                             <ul class="list-group">
-                                <li class="list-group-item"><i class="fas fa-hand-point-right"></i>Lorem ipsum dolor sit amet consectetuer.</li>
-                                <li class="list-group-item"><i class="fas fa-hand-point-right"></i>Lorem ipsum dolor sit amet consectetuer.</li>
-                                <li class="list-group-item"><i class="fas fa-hand-point-right"></i>Lorem ipsum dolor sit amet consectetuer.</li>
-                                <li class="list-group-item"><i class="fas fa-hand-point-right"></i>Lorem ipsum dolor sit amet consectetuer.</li>
+                                <li class="list-group-item"><i class="fas fa-hand-point-right"></i>{data.templatelistone}</li>
+                                <li class="list-group-item"><i class="fas fa-hand-point-right"></i>{data.templatelisttwo}</li>
+                                <li class="list-group-item"><i class="fas fa-hand-point-right"></i>{data.templatelistthree}</li>
+                                <li class="list-group-item"><i class="fas fa-hand-point-right"></i>{data.templatelistfour}</li>
                             </ul>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>
+                            <p>{data.templatetexttwo}</p>
                         </div>
 
                     </div>

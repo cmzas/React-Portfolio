@@ -146,10 +146,13 @@ $color-hover:#3b93db;
     background-color: $color-white;
 }
 .bage-img{
-    width: 100%;
+    width: 100px;
     height: 60px;
-    // object-fit: cover;
+    margin: 0 auto;
     // background-color:rgb(221, 216, 216);
+}
+.bage-inner-img{
+    width: 100%;
 }
 /* project */
 .blog-bg {

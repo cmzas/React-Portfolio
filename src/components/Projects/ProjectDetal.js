@@ -5,7 +5,7 @@ import Imagecovertwo from "../../Images/blog-post-thumb-2.jpg";
 import Imagecoverthree from "../../Images/blog-post-thumb-3.jpg";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
-import Data from "./ProjectData";
+import Data from "../Data/Project/ProjectData";
 const ProjectDetal = () => {
     const { projectId } = useParams();
     const data=Data.find((pro)=>pro.id===projectId);

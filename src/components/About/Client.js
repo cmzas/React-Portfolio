@@ -1,8 +1,8 @@
 import React from 'react';
 import ClientComponent from "./AboutComponent/ClientComponent";
 import Carousels from "./AboutComponent/Carousels";
-import ClientBadges from "./Array/ClientData";
-import CarouselData from "./Array/CarouselData";
+import ClientBadges from "../Data/About/ClientData";
+import CarouselData from "../Data/About/CarouselData";
 
 
 

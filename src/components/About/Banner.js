@@ -1,6 +1,6 @@
 import React from 'react'
 import BannerComponent from "./AboutComponent/BannerComponent";
-import Data from "./Array/BannerData";
+import Data from "../Data/About/BannerData";
 
 
 const Banner = () => {

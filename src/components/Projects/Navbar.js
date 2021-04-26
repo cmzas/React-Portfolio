@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import ProjectCard from './Projectcard';
-import Data from "./ProjectData";
+import Data from "../Data/Project/ProjectData";
 
 const Navbar = () => {
     const [active, setactive] = useState("All")

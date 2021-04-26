@@ -1,11 +1,14 @@
-$color-orange:#FFA700;
-$color-white:#ffffff;
+$color-lightblue: #41a4f5;
+$color-white: #ffffff;
+$color-lighgray: #f7f8fa;
+$color-orange: #ffa700;
 $color-black: #000000;
-$color-lightgray:#e0dcdc;
-$color-lightblue:#41A4F5;
-$color-darkgray:#808080;
-$color-gray:#434e5e;
-
+$color-lightgray: #e0dcdc;
+$color-darkgray: #808080;
+$color-gray: #434e5e;
+$color-btn:#3483C4;
+$color-hover:#3b93db;
+$color-lightblack:#58677C;
 // form right
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -49,6 +52,9 @@ form button{
     border-radius: 5px;
 
 }
+form button:hover{
+    background-color: $color-hover !important;
+}
 form button:focus{
     border: none !important;
     outline:0 !important;
@@ -91,13 +97,34 @@ font-size: 35px;
 .profile-content{
     background-color:$color-white !important;
 }
-.intro-text p{
-    color: $color-gray !important;
-    font-size: 16px;
-    text-align: justify;
+.form-intro-text p{
+    color:$color-lightblack !important;
+    font-size: 14px;
+    width: 60%;
+    text-align: center;
+    padding: 5px 0px;
+    margin: 0 auto;
+    @media only screen and (max-width:767px) {
+        width: 100%;
+      }
+}
+.form-intro-text p a{
+    color: $color-lightblue !important;
+    text-decoration: none;
+
+}
+.form-intro-text p a:hover{
+    color: $color-hover !important;
 }
 .social-channel p{
     text-align: center;
     font-weight: bold;
     font-size: 16px;
+    color:$color-lightblack !important
+}
+.social-icon i{
+    color: $color-lightblue !important;
+}
+.social-icon i:hover{
+    color: $color-hover !important;
 }

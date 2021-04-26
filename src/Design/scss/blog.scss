@@ -31,15 +31,10 @@ $color-lightblack:#58677C;
     font-size: 1.5rem;
 }
 
-/* media section start here */
-
-// .blog-bg{
-   
-//     display: block;
-// }
 .blog-img img{
     width: 100%;
-   height:100%;
+   height:300px;
+   object-fit: cover;
 }
 .blog-heading h4{
     font-size: 1.3rem;
