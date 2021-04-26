@@ -329,3 +329,10 @@ $color-hover:#3b93db;
       }
     
   }
+
+  //scroll button
+  .fa-arrow-circle-up{
+      color: $color-btn !important;
+      font-size: 32px !important;
+      z-index:1;
+  }

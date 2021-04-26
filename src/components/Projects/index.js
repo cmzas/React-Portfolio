@@ -3,6 +3,7 @@ import Hero from "../elements/Hero";
 import Navbar from "./Navbar";
 import HeroData from "../Data/Hero/HeroData";
 
+
 const Projectindex = () => {
     return (
         <>
@@ -11,6 +12,7 @@ const Projectindex = () => {
                 text={HeroData[2].text}
             />
             <Navbar />
+           
 
         </>
     )

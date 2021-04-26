@@ -9,7 +9,7 @@ import Talk from "./Pages/Talk";
 import Contact from "./Pages/Contact";
 import BlogDetail from "../src/components/Blogs/BlogDetail";
 import ProjectDetal from "../src/components/Projects/ProjectDetal";
-
+import ScrollToUp from "../src/components/ScrollButton/ScrollToTop";
 
 
 
@@ -26,8 +26,8 @@ const App = () => {
         <Route exact path="/project/:projectId" component={ProjectDetal} />
         <Route exact path="/resume" component={Resume} />
         <Route exact path="/talk" component={Talk} />
-       
       </Switch>
+      <ScrollToUp/>
       <Footer />
 
     </>

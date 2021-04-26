@@ -1,8 +1,6 @@
 import React from 'react';
-
 import { Link } from "react-router-dom";
 import { TwitterTweetEmbed } from 'react-twitter-embed';
-
 import CommentBox from "./CommentBox";
 import { useParams } from "react-router-dom";
 import Data from "../Data/Blog/BlogCardData";

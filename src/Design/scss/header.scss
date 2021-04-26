@@ -17,7 +17,6 @@ nav a{
     font-weight: bolder!important;
     color: #fff;
 }
-
 .icons a{
     color: white;
     padding: 10px 11px 10px 11px;
@@ -27,4 +26,30 @@ nav a{
 }
 .icons a:hover{
  background-color: rgba(0,0,0,0.5);
+}
+.menu-border{
+    margin: 0 auto;
+    border: 1px solid #f7f7f7 !important;
+    object-fit: fill;
+    visibility: hidden;
+    @media only screen and (max-width: 767px) {
+        width:50px;
+        
+    }
+  }
+  @keyframes animate{
+    0%{width: 0px;}
+    100% {width: 50px;}
+  }
+
+.menu a:hover +.menu-border{
+   
+    visibility: visible !important;
+    animation: animate 0.2s linear;
+}
+.menu a:hover{
+    color: white !important;
+}
+.menu a:focus{
+    font-weight: bold !important;
 }
