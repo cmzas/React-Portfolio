@@ -1,8 +1,18 @@
-import React from 'react'
+import React,{useEffect} from "react";
+import AOS from "aos";
 import Skillcard from "./SkillCard";
 import CardData from "../Data/About/SkillCardData";
 
 const Skill = () => {
+    useEffect(() => {
+        AOS.init({
+            duration:2000,
+            once:true
+            
+        })
+
+    
+}, [])
     return (
         <>
             <div className="container" id="skills">
@@ -11,7 +21,7 @@ const Skill = () => {
                     <p>I have more than 8 years' experience building rich web applications for clients all over the world. Below is a quick overview of my main technical skill sets and tools I use. Want to find out more about my experience?</p>
                     <a href="#"> Check out my online resume. </a>
                 </div>
-                <div className="row">
+                <div data-AOS="fade-right" className="row">
                     {CardData.map(card=>{
                         return(
                             <Skillcard

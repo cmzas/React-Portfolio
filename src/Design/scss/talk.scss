@@ -11,6 +11,7 @@ $color-hover:#3b93db;
 $color-lightblack:#58677C;
 body{
     background-color: $color-lighgray;
+    overflow-x: hidden !important;
 }
 .page-heading h2{
     font-weight: bold;

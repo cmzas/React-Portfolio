@@ -1,11 +1,21 @@
-import React from 'react'
+import React,{useEffect} from "react";
+import AOS from "aos";
 import ProjectCard from "./Projectcard";
 import {Link} from "react-router-dom";
 
 const FeaturedProjects = () => {
+    useEffect(() => {
+        AOS.init({
+            duration:2000,
+            once:true
+            
+        })
+
+    
+}, [])
     return (
         <>
-            <div className="container-fluid blog-bg pt-5 pb-5">
+            <div data-AOS="fade-up" className="container-fluid blog-bg pt-5 pb-5">
                 <div className="container feature-project-heading">
                     <h1 className="text-center main-heading">Featured Projects</h1>
                     <div className="row pb-5">

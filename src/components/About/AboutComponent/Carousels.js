@@ -1,16 +1,24 @@
-import React from 'react';
+import React,{useEffect} from "react";
+import AOS from "aos";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import Image from "../../../Images/sliderone.jpg";
-import Imagetwo from "../../../Images/slidertwo.jpg";
-import Imagethree from "../../../Images/sliderthree.jpg";
+
 
 
 const Carousels = (props) => {
+    useEffect(() => {
+        AOS.init({
+            duration:2000,
+            once:true
+            
+        })
+
+    
+}, [])
    
     return (
         <>
-        <div className="jumbotron-fluid carousel-bg pt-5 pb-5">
+        <div data-AOS="fade-left" className="jumbotron-fluid carousel-bg pt-5 pb-5">
         <div className="container carousels pt-5 pt-5">
             <Carousel autoPlay infiniteLoop>
                 <div className="slider">

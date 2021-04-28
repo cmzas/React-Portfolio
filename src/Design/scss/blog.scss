@@ -9,6 +9,61 @@ $color-gray: #434e5e;
 $color-btn:#3483C4;
 $color-hover:#3b93db;
 $color-lightblack:#58677C;
+.blog{
+    
+    position: relative !important;
+}
+// corner left ribon
+.ribbon {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: absolute;
+  }
+  .ribbon::before,
+  .ribbon::after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    display: block;
+    border: 5px solid #2980b9;
+  }
+  .ribbon span {
+    position: absolute;
+    display: block;
+    width: 225px;
+    padding: 15px 0;
+    background-color: #3498db;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    color: #fff;
+    font: 700 18px/1 'Lato', sans-serif;
+    text-shadow: 0 1px 1px rgba(0,0,0,.2);
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .ribbon-top-left {
+    top: -0px;
+    left: -15px;
+  }
+  .ribbon-top-left::before,
+  .ribbon-top-left::after {
+    border-top-color: transparent;
+    border-left-color: transparent;
+  }
+  .ribbon-top-left::before {
+    top: 0;
+    right: 0;
+  }
+  .ribbon-top-left::after {
+    bottom: 0;
+    left: 0;
+  }
+  .ribbon-top-left span {
+    right: -25px;
+    top: 30px;
+    transform: rotate(-45deg);
+  }
+//  end here
 
 .blog-intro{
     background-color: #41A4F5;
@@ -63,6 +118,26 @@ $color-lightblack:#58677C;
 }
 .image-inner{
     height: 200px;
+    position: relative;
+}
+.image-inner .centere {
+    position: absolute;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 24px !important;
+    font-family: 'Droid Serif', serif;
+    font-weight: bold;
+    top: 50% !important;
+    left: 50% !important;
+    padding-top: 90px;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    color: $color-white !important;
+    opacity: 0;
+    //    display: none !important;
+
+    transition: 0.8s !important;
 }
 .image-inner img{
     height: 100%;
@@ -70,7 +145,11 @@ $color-lightblack:#58677C;
     transition: all 1s ease;
 }
 .image-inner:hover img{
-    transform: scale(1.1);
+    filter: blur(4px);
+}
+.image-inner:hover .centere{
+    opacity: 1 !important;
+   
 }
 .blog-date{
     background-color: #d4cece;
@@ -91,6 +170,7 @@ display: inline-block;
 }
 .card{
     border: none;
+    
 }
 .blo-card-text h1 a{
     color: $color-lightblue !important;

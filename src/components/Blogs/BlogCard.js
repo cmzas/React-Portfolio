@@ -8,7 +8,7 @@ const BlogCard = () => {
                 <div class=" card rounded-0 border-0 shadow-sm  ">
                     <div class="image-inner">
                     <Link to={`/blog/${blog.id}`}><img class="card-img-top rounded-0" src={blog.image} alt="image" /></Link>
-                        
+                    <Link to={`/blog/${blog.id}`}><h1 class="centere text-center">Check this Out!</h1></Link>
                     </div>
                     <div class="p-2">
                         <div className="blo-card-text">

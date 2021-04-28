@@ -3,8 +3,8 @@ import Image from "../../Images/blog-post-thumb-1.jpg";
 import { Link } from "react-router-dom";
 import Data from "../Data/Blog/BlogCardData";
 
-const BlogFeatured = (props) => {
-    const blogs = Data.slice(0,1).map((blog) => {
+const BlogFeatured = () => {
+    const blogs = Data.slice(-1).map((blog) => {
         return (
             <>
 
@@ -36,6 +36,7 @@ const BlogFeatured = (props) => {
                         <div className="row">
                             {blogs}
                         </div>
+                        <div class="ribbon ribbon-top-left"><span>Feature</span></div>
                     </div>
                 </div>
             </div>

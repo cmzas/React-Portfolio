@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import Data from "../Data/Project/ProjectData";
 const ProjectCard = () => {
-    const projects = Data.slice(0,3).map((project) => {
+    const projects = Data.slice(-3).map((project) => {
         return (
             <div key={project.id}>
 
@@ -10,7 +10,7 @@ const ProjectCard = () => {
                     <div className="project-card-bg col-md-12 p-0 pb-2" >
                         <div className="project-card-image">
                             <img src={project.imagesrc} alt="image" />
-                            <h1 class="centered">Google</h1>
+                          <Link  to={`/project/${project.id}`}>  <h1 class="centered"><i class="fas fa-expand"></i></h1></Link>
                         </div>
                         <div className="project-card-text pt-2">
 

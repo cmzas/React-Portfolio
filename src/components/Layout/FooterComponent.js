@@ -17,7 +17,7 @@ const FooterComponent = (props) => {
                 <h2>Interested in hiring me for your project?</h2>
                 <p>{props.footertext}</p>
                 <div className="center pb-3 pt-2">
-                    <Link to="/contact" className="view-project">Let's Talk</Link>
+                    <Link to="/contact" className="hire-me">Let's Talk</Link>
                 </div>
             </div>
         </div>
